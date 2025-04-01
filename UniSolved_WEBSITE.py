@@ -1,4 +1,5 @@
 import streamlit as st
+
 st.set_page_config(page_title="unisolv'd", page_icon="💼", layout="wide")
 def fake_chat_with_gpt(prompt):
     # Hard-coded responses for demo purposes
@@ -111,17 +112,17 @@ def home():
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.image("https://source.unsplash.com/400x300/?innovation", use_container_width=True, caption="Innovation")
+        st.image("https://static.vecteezy.com/system/resources/previews/004/669/641/non_2x/innovation-idea-to-drive-team-success-business-innovative-solution-community-or-invention-help-company-achieve-goal-concept-business-people-teamwork-help-carry-big-smart-lightbulb-innovation-idea-vector.jpg", use_container_width=True, caption="Innovation")
         st.markdown("**Innovation**")
         st.write("We continuously innovate to bring the best solutions.")
         
     with col2:
-        st.image("https://source.unsplash.com/400x300/?strategy", use_container_width=True, caption="Strategy")
+        st.image("https://static.vecteezy.com/system/resources/previews/002/214/696/non_2x/flat-design-concept-hand-create-symbol-icon-and-words-strategy-illustrations-free-vector.jpg", use_container_width=True, caption="Strategy")
         st.markdown("**Strategy**")
         st.write("Our strategic approach ensures success in every project.")
         
     with col3:
-        st.image("https://source.unsplash.com/400x300/?growth", use_container_width=True, caption="Growth")
+        st.image("https://static.vecteezy.com/system/resources/thumbnails/002/901/428/small/tree-growth-in-nature-and-beautiful-morning-photo.jpg", use_container_width=True, caption="Growth")
         st.markdown("**Growth**")
         st.write("Empowering your business for long-term growth.")
     
