@@ -5,18 +5,15 @@ def fake_chat_with_gpt(prompt):
     # Hard-coded responses for demo purposes
     if prompt.lower().strip() == "hello":
         return {
-            "response": "Hi there! How can I help you today?",
-            "articles": []
+            "response": "Sorry the demo isn't aviable right now."
         }
     elif prompt.lower().strip() == "tell me a joke":
         return {
-            "response": "Why did the student eat his homework? Because his teacher said it was a piece of cake!",
-            "articles": []
+            "response": "Sorry the demo isn't aviable right now."
         }
     else:
         return {
-            "response": "I'm not sure what you mean. Could you please rephrase?",
-            "articles": []
+            "response": "Sorry the demo isn't aviable right now."
         }
     
 
