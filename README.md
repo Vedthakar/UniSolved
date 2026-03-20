@@ -1,30 +1,23 @@
 # UniSolved
-<<<<<<< HEAD
-This is a startup to help all university solutions
-You would need to import streamlit to open the UniSolved in a browser!
-=======
 
 UniSolved is a student-support assistant built around a single idea: a student should be able to ask one plain-language question and immediately get a useful next step. Instead of forcing students to search across multiple U of T resources, the app combines a direct response, ranked campus resources, and mentor recommendations in one workflow.
 
 The current implementation supports academic support, wellness-style support questions, administrative guidance, and nearby food discovery. It runs locally in Streamlit, uses a privacy-safe seeded SQLite dataset by default, and can optionally layer Gemini with Google Search grounding on top of the answer text when a `GEMINI_API_KEY` is provided.
 
 ## Screenshots
+![Homepage Screenshot](./ss/landingPage.png)
+![description](./ss/description.png)
+![initial](./ss/initial.png)
 
-<p align="center">
-  <img src="ss/landingPage.png" alt="UniSolved landing page" width="48%" />
-  <img src="ss/initial.png" alt="UniSolved chat workspace" width="48%" />
-</p>
-<p align="center">
-  <img src="ss/help.png" alt="Academic mentor support flow" width="48%" />
-  <img src="ss/overwhlemed.png" alt="Wellness-oriented support flow" width="48%" />
-</p>
-<p align="center">
-  <img src="ss/resources.png" alt="Ranked resources and links" width="48%" />
-  <img src="ss/clubs.png" alt="Alternative support and discovery flow" width="48%" />
-</p>
-<p align="center">
-  <img src="ss/description.png" alt="Project overview view" width="70%" />
-</p>
+### looking for a mentor
+![help](./ss/help.png)
+![resources](./ss/resources.png)
+
+### Overwhlemed
+![overwhlemed](./ss/overwhlemed.png)
+
+### Clubs
+![clubs](./ss/clubs.png)
 
 ## What The Project Covers
 
@@ -149,4 +142,3 @@ The UI opens on the landing page first and then routes into the chat demo.
 
 - Google Search grounding docs: https://ai.google.dev/gemini-api/docs/google-search
 - Model capability overview: https://ai.google.dev/gemini-api/docs/models/gemini-v2
->>>>>>> d81d86d (add read me!)
